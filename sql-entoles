@@ -1,0 +1,6 @@
+PLHROFORIES EKPOMPHS GIA DHMIOURGIA PROGRAMMATOS
+
+SELECT ekpompes.ID, ekpompes.Title, ekpompes.desc, eidos.cat, start, end, keno, tempID 
+FROM programma, ekpompes, eidos 
+WHERE programma.day = 1 AND ekpompes.ID = programma.ID AND ekpompes.cID = eidos.cID 
+ORDER BY start ASC ;

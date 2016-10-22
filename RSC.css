@@ -1,0 +1,258 @@
+H1 {
+     color: #cc1808;
+     text-align: center;
+}
+
+H4 {
+     left: 10pc;
+     margin-left: -2.5pc;
+}
+
+.B {
+     text-align: center;
+}
+
+a.perissotera:link {
+     color: #000000;
+}
+
+a.perissotera:visited {
+     color: #000000;
+}
+
+a.perissotera:hover {
+     color: #cc1808;
+}
+
+a.perissotera:active {
+     color: #cc1808;
+}
+
+div.header {
+     border-color: #cc1808;
+     border-style: solid;
+     border-width: 3px;
+     width: 98%;
+}
+
+div.body {
+     background-image: url("pictures/back.jpg");
+     height: 100%;
+     margin: 0px auto;
+     overflow: auto;
+     width: 1024px;
+}
+
+div.left {
+     border: 1px solid #cc1808;
+     float: left;
+     height: 40pc;
+     line-height: 18px;
+     margin-bottom: 0px;
+     margin-top: 1pc;
+     overflow: auto;
+     text-align: left;
+     width: 10pc;
+}
+
+table.maintable {
+     border-color: #cc1808;
+     border-style: ridge;
+     border-width: 8px;
+     height: 20pc;
+     margin-left: 35.5%;
+     padding: 2px;
+     table-layout: fixed;
+     width: 30pc;
+}
+
+table.prodlist {
+     border-collapse: collapse;
+     border: 1px solid black;
+}
+
+b.sizemain {
+     font-size: 20px;
+}
+
+ul.li {
+     line-height: 20px;
+}
+
+div.lefttop {
+     border-color: #cc1808;
+     border-style: ridge;
+     border-width: 1px;
+     float: left;
+     height: 40pc;
+     margin: 1pc;
+     padding-right: 1pc;
+     text-align: justify;
+     width: 20pc;
+}
+
+div.leftbottom {
+     border-color: #cc1808;
+     border-style: ridge;
+     border-width: 3px;
+     height: 15.3pc;
+     margin-left: 12pc;
+     margin-top: 1pc;
+     padding-bottom: 1pc;
+     padding-right: 1pc;
+     padding-top: 1pc;
+     width: 20pc;
+}
+
+div.centertop {
+     border-color: #cc1808;
+     border-style: double;
+     border-width: 3px;
+     height: 5.5pc;
+     margin: 1pc;
+     width: auto;
+}
+
+div.centerbottom {
+     border-color: #cc1808;
+     border-style: double;
+     border-width: 3px;
+     float: left;
+     height: 14pc;
+     margin-bottom: 1pc;
+     overflow: auto;
+     width: 29.4pc;
+}
+
+div.righttop {
+     border-color: #cc1808;
+     border-style: outset;
+     border-width: 3px;
+     height: 19.8pc;
+     margin-left: 66pc;
+     margin-top: -26.6pc;
+     width: 20pc;
+}
+
+div.rightbottom {
+     border-color: #cc1808;
+     border-style: outset;
+     border-width: 3px;
+     height: 13.2pc;
+     margin-left: 66pc;
+     margin-top: 0.8pc;
+     width: 20pc;
+}
+
+div.programma {
+     margin: 1pc;
+     overflow: auto;
+}
+
+marquee {
+     background-color: #000000;
+     border-bottom: 1px solid #cc1808;
+     border-left-color: #cc1808;
+     border-left-style: solid;
+     border-top-color: #cc1808;
+     border-top-style: solid;
+     bottom: 100%;
+     width: 100%;
+}
+
+.marquee {
+     color: #fbfbfb;
+     font-weight: bold;
+}
+
+.progcast .pposter {
+    position: absolute;
+     top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    
+}
+
+.progcast:hover .pposter {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+
+.progcast {
+    position: relative;
+     background-position: center center;
+     background-size: 100% auto;
+     border-style: double;
+     margin: 5px;
+     padding: 5px;
+}
+
+.progcast_canc {
+     background-color: red;
+     border-style: double;
+     margin: 5px;
+     padding: 5px;
+}
+
+.progcast_cover {
+     background-color: aqua;
+     border-style: double;
+     margin: 5px;
+     padding: 5px;
+}
+
+.progcast_now {
+     position: relative;
+     background-size: 100% auto;
+     border-style: double;
+     margin: 5px;
+     padding: 5px;
+     border:3px solid #AA0000;
+}
+
+
+
+.progcast_now .pposter {
+    
+    position: absolute;
+     top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    
+}
+
+.progcast_now:hover .pposter {
+    display: block;
+    font-weight: bold;
+    background: rgba(0, 0, 0, .6);
+}
+
+
+.cp_r {
+     float: left;
+     height: 150px;
+     padding: 5px;
+     width: 250px;
+}
+
+.cp_l {
+     float: right;
+     height: 150px;
+     padding: 5px;
+     width: 200px;
+}
+
+.chatbox {
+     float: left;
+}
+
+body {
+     background-color: #bfb4a3;
+}
